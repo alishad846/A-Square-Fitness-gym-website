@@ -72,7 +72,7 @@ const Trainer: React.FC = () => {
               />
               <div className="relative bg-gray-800 rounded-2xl p-8">
                 <img
-                  src="owner.jpg"
+                  src="https://raw.githubusercontent.com/alishad846/A-Square-Fitness-gym-website/main/owner.jpg"
                   alt="Trainer"
                   className="w-[500px] h-[350px] overflow-hidden rounded-xl"
                 />
