@@ -135,6 +135,17 @@ const Footer: React.FC = () => {
             <a href="#" className="hover:text-green-400 transition-colors">Privacy Policy</a>
             <a href="#" className="hover:text-green-400 transition-colors">Terms of Service</a>
           </div>
+          <div className="mt-8 text-center text-gray-500 text-sm">
+  Designed & Developed by{' '}
+  <a
+    href="https://www.linkedin.com/in/shad-ali-099a82145"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-green-400 hover:underline font-medium"
+  >
+    Shad Ali
+  </a>
+</div>
         </motion.div>
       </div>
     </footer>
