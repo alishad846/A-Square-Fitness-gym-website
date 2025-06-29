@@ -76,7 +76,7 @@ const Trainer: React.FC = () => {
                   alt="Trainer"
                   className="w-full h-80 object-cover rounded-xl mb-6"
                 />
-                <h3 className="text-2xl font-black text-white mb-2">RAJESH KUMAR</h3>
+                <h3 className="text-2xl font-black text-white mb-2">Aftab Alam</h3>
                 <p className="text-green-400 font-bold mb-4">CERTIFIED STRENGTH COACH</p>
                 <p className="text-gray-300 leading-relaxed">
                   10+ years of experience in muscle building and strength training. 
