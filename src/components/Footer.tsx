@@ -4,9 +4,9 @@ import { MapPin, Clock, Phone, Mail, Instagram, Facebook, Youtube } from 'lucide
 
 const Footer: React.FC = () => {
   const socialLinks = [
-    { icon: Instagram, href: '#', label: 'Instagram', color: 'hover:text-pink-400' },
-    { icon: Facebook, href: '#', label: 'Facebook', color: 'hover:text-blue-400' },
-    { icon: Youtube, href: '#', label: 'YouTube', color: 'hover:text-red-400' },
+    { icon: Instagram, href: 'https://www.instagram.com/a_square_fitnesss?utm_source=ig_web_button_share_sheet&igsh=aTlnZWtob3prbTF1', label: 'Instagram', color: 'hover:text-pink-400' },
+    //{ icon: Facebook, href: '#', label: 'Facebook', color: 'hover:text-blue-400' },
+    { icon: Youtube, href: 'https://www.youtube.com/@AftabFitness/featured', label: 'YouTube', color: 'hover:text-red-400' },
   ];
 
   return (
@@ -40,16 +40,16 @@ const Footer: React.FC = () => {
               <div className="flex items-center space-x-3 text-gray-400">
                 <MapPin size={16} className="text-green-400 flex-shrink-0" />
                 <span className="text-sm">
-                  123 Fitness Street, Muscle District<br />Mumbai, Maharashtra 400001
+                  A SQUARE FITNESS, station road, near shahtri school, Lalgarh<br />Bikaner, Rajasthan 334001
                 </span>
               </div>
               <div className="flex items-center space-x-3 text-gray-400">
                 <Phone size={16} className="text-green-400 flex-shrink-0" />
-                <span className="text-sm">+91 98765 43210</span>
+                <span className="text-sm">+91 86195 55677</span>
               </div>
               <div className="flex items-center space-x-3 text-gray-400">
                 <Mail size={16} className="text-green-400 flex-shrink-0" />
-                <span className="text-sm">info@asquarefitness.com</span>
+                <span className="text-sm">infoatasquarefitness@gmail.com</span>
               </div>
             </div>
           </motion.div>
@@ -67,17 +67,14 @@ const Footer: React.FC = () => {
             
             <div className="space-y-3">
               <div className="flex justify-between items-center py-2 border-b border-gray-800">
-                <span className="text-gray-400">Monday - Friday</span>
-                <span className="text-white font-bold">7:00 AM - 10:00 PM</span>
-              </div>
-              <div className="flex justify-between items-center py-2 border-b border-gray-800">
-                <span className="text-gray-400">Saturday</span>
-                <span className="text-white font-bold">7:00 AM - 9:00 PM</span>
+                <span className="text-gray-400">Monday - Saturday</span>
+                <span className="text-white font-bold">5:00 AM - 10:00 PM</span>
               </div>
               <div className="flex justify-between items-center py-2 border-b border-gray-800">
                 <span className="text-gray-400">Sunday</span>
-                <span className="text-white font-bold">8:00 AM - 8:00 PM</span>
+                <span className="text-white font-bold">Closed</span>
               </div>
+
             </div>
 
             <motion.div
@@ -122,24 +119,7 @@ const Footer: React.FC = () => {
               ))}
             </div>
 
-            <div className="space-y-3">
-              <h4 className="text-sm font-bold text-white mb-3">QUICK LINKS</h4>
-              {['About Us', 'Services', 'Competition Prep', 'Contact'].map((link, index) => (
-                <motion.div
-                  key={link}
-                  initial={{ opacity: 0, x: -20 }}
-                  whileInView={{ opacity: 1, x: 0 }}
-                  transition={{ delay: index * 0.1 }}
-                >
-                  <a
-                    href="#"
-                    className="block text-gray-400 hover:text-green-400 transition-colors text-sm"
-                  >
-                    {link}
-                  </a>
-                </motion.div>
-              ))}
-            </div>
+
           </motion.div>
         </div>
 

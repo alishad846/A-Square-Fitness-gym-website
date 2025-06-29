@@ -12,7 +12,7 @@ const Testimonials: React.FC = () => {
       image: "https://images.pexels.com/photos/3768911/pexels-photo-3768911.jpeg",
       beforeAfter: "https://images.pexels.com/photos/3768916/pexels-photo-3768916.jpeg",
       rating: 5,
-      text: "Rajesh sir completely transformed my life. His dedication and personalized approach helped me achieve what I thought was impossible. The muscle building program was intense but incredibly effective.",
+      text: "Aftab Alam sir completely transformed my life. His dedication and personalized approach helped me achieve what I thought was impossible. The muscle building program was intense but incredibly effective.",
       achievement: "State Level Competitor"
     },
     {
@@ -21,7 +21,7 @@ const Testimonials: React.FC = () => {
       image: "https://images.pexels.com/photos/3490348/pexels-photo-3490348.jpeg",
       beforeAfter: "https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg",
       rating: 5,
-      text: "The competition prep program is world-class. Rajesh sir's expertise in posing and nutrition helped me win my first bodybuilding competition. Highly recommended for serious athletes.",
+      text: "The competition prep program is world-class. Aftab Alam sir's expertise in posing and nutrition helped me win my first bodybuilding competition. Highly recommended for serious athletes.",
       achievement: "Mr. Mumbai Winner"
     },
     {
@@ -30,7 +30,7 @@ const Testimonials: React.FC = () => {
       image: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg",
       beforeAfter: "https://images.pexels.com/photos/3768916/pexels-photo-3768916.jpeg",
       rating: 5,
-      text: "Amazing transformation journey! The cardio and strength training combination worked perfectly. Rajesh sir's motivation and scientific approach made all the difference.",
+      text: "Amazing transformation journey! The cardio and strength training combination worked perfectly. Aftab Alam sir's motivation and scientific approach made all the difference.",
       achievement: "Fitness Model"
     }
   ];
