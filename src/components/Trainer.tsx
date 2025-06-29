@@ -72,9 +72,9 @@ const Trainer: React.FC = () => {
               />
               <div className="relative bg-gray-800 rounded-2xl p-8">
                 <img
-                 src="https://raw.githubusercontent.com/alishad846/A-Square-Fitness-gym-website/main/aftab.jpg"
+                  src="owner.jpg"
                   alt="Trainer"
-                  className="w-full h-80 object-cover rounded-xl mb-6"
+                  className="w-[500px] h-[350px] overflow-hidden rounded-xl"
                 />
                 <h3 className="text-2xl font-black text-white mb-2">Aftab Alam</h3>
                 <p className="text-green-400 font-bold mb-4">CERTIFIED STRENGTH COACH</p>
